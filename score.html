@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	body { font-family: 'Batang' }
+	</style>
+	<script type="text/javascript">
+		function star(num){
+			var rate = num;
+			var star = "★★★★★☆☆☆☆☆";
+			document.write(star.slice(5 - rate, 10 - rate));
+		}
+	</script>
+</head>
+<body onload="star(3)">
+	
+</body>
+</html>
